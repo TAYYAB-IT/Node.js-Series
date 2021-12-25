@@ -1,0 +1,31 @@
+In this part, we are going to talk about above us and stream in and stream is to let us using the data
+
+before fully to read.
+
+And there are two ways to read the files.
+
+And now you can see I already paste a large text file and there are a lot of parts here.
+
+And one way is to wait until it has been read and the other is to pass the piece of data halfway through.
+
+And a small chunk of data has picked up into a first and sent it on to the stream every time to for
+
+it.
+
+So now we back to the project and go to the app called Jazz, and we are going to delete this command
+
+and we are going to create a stream to read that file.
+
+So we are going to create a constant stream echo to create a stream.
+
+And we are going to post a file to this so that we are going to read this file to file an enemy's passport
+
+text.
+
+So next year we type we stream stored on data and then tunc and we're stream on data and been listening
+
+to the data everand on this stream.
+
+So every time we get a chunk of data and we will fire this Corbat and this callback is going to do a
+
+download, we indicate that this is a new chunk of data and then we also lock the chunk.
