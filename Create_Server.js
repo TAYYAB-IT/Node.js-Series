@@ -12,15 +12,24 @@ const http=require('http')
 // nodemon filename   //(best) //Must save file before & during server running state to make changes in files.
 
 //response methods
-const server=http.createServer((req,res)=>{
-    //console.log(`A request recived with\n URL: ${req.url}\nMethod:${req.method}`)
-    res.setHeader('Content-Type','text/plain');
-    res.write('Hello Mr. X ,You requested for '+req.url);
-    res.end()
-})
+// const server=http.createServer((req,res)=>{
+//     //console.log(`A request recived with\n URL: ${req.url}\nMethod:${req.method}`)
+//     res.setHeader('Content-Type','text/plain');
+//     res.write('Hello Mr. X ,You requested for '+req.url);
+//     res.end()
+// })
 
-
-const port=300
+// render a html file.
+const fs=require('fs');
+// const server=http.createServer((req,res)=>{
+//     res.setHeader('Content-Type','text/html');
+//     fs.readFile('./views/file.html',(err,data)=>{
+//         if(err){console.log(err);res.end()}
+//         else{
+//             res.write(data);
+//         }})
+//     })
+const port=300;
 //Active the Server
 server.listen(port,()=>{
     console.log(`Server is Active at port ${port} `)
