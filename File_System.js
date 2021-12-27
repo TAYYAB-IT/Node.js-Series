@@ -58,7 +58,7 @@
 //     console.log("File not  exist");
 // }
 
-//redfile
+//readfile
 // if(file.existsSync("./folder/data.txt")){
 //     file.readFile("./folder/data.txt",(err,data)=>{
 //         if(err){console.log(err)}
